@@ -83,9 +83,9 @@ After installing the project, you can use it as follows:
 
 This Python code represents a financial calculator program that provides users access to two distinct calculators:
 
-   *1. An investment calculator*
+   &nbsp; &nbsp; &nbsp;*1. An investment calculator*
    
-   *2. A home loan repayment calculator*
+   &nbsp; &nbsp; &nbsp;*2. A home loan repayment calculator*
 
 1. The program incorporates while loops to continually prompt the user for numerical input, ensuring valid entries. Additionally, it defines a function, `obtain_numerical_input`, to handle repetitive input code. The user is presented with a welcoming introduction outlining the available calculators and their respective purposes, and the code employs the `math` module for mathematical operations.
 <br>
@@ -93,6 +93,7 @@ This Python code represents a financial calculator program that provides users a
 <br>
 <br>
 2. This Python code implements a financial calculator program with a user interface that operates within a while loop. The program prompts the user to choose between an investment calculator, a home loan repayment calculator, or to stop calculations altogether. Depending on the user's choice, it further prompts for relevant inputs such as deposit amount, interest rate, and duration. The program calculates either the simple or compound interest for investments or the monthly bond repayment amount based on the user's input. It incorporates error handling for invalid entries and continues to execute until the user chooses to stop.
+<br>
 <br>
 <img width="989" alt="2" src="https://github.com/gitgit-hooray/finalCapstone/assets/151678204/ae3115aa-aa2e-40c5-b895-edaeea64736d">
 <br>
