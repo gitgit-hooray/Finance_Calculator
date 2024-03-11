@@ -5,6 +5,7 @@
 This project is a financial calculator that provides two main functionalities:
 
    *1. An investment calculator*
+   
    *2. A home loan repayment calculator*
 
 The program allows users to calculate the interest earned on an investment or the monthly repayment amount for a home loan. 
@@ -45,21 +46,21 @@ To use this financial calculator locally, follow these steps:
    ```bash
    python finance_calculator.py
    ```
-
+   <br>
    b. This script is an alternative version with more detailed comments explaining the code:
    This is to improve the learning process and for more clarity on why certain code was used.
 
    ```bash
    python finance_calculators_extra_comments.py
    ```
-
+   <br>
    c. This script is just the code without any comments:
 
    ```bash
    python justcode.py
    ```
    <br>
-   
+  
 4. You can refer to the pseudocode file as an outline of the logic of the program using human-readable, informal language,
    facilitating algorithm development and clearer communication between developers.
    <br>
