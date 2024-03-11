@@ -2,7 +2,8 @@
 
 ## Description
 
-This project is a financial calculator that provides two main functionalities: 
+This project is a financial calculator that provides two main functionalities:
+
     1. An investment calculator
     2. A home loan repayment calculator
 
