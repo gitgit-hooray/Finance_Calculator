@@ -9,19 +9,19 @@ which is for both evidence of understanding and educational purposes.
             two different financial calculators:
 an investment calculator and a home loan repayment calculator.
 
-""" 
+"""
 
 import math
-"""Function prevents the need for repetitive code."""
-def obtain_numerical_input(prompt): 
+
+def obtain_numerical_input(prompt):
+    """Function prevents the need for repetitive code."""
     while True:
-        # User continuosly prompted until numerical value entered. 
+        # User continuosly prompted until numerical value entered.
         user_input = input(f"Please enter {prompt}")
         if user_input.isdigit():
             return float(user_input)
-        # If non-numerical value is entered, error message is displayed. 
-        else:
-            print("\nError: Please enter a numerical value without any other characters.\n")
+        # If non-numerical value is entered, error message is displayed.
+        print("\nError: Please enter a numerical value without any other characters.\n")
 
 
 introduction = """
@@ -55,17 +55,16 @@ while not stop_program:
                 simple_return = round(deposit * (1 + interest_rate * years_invest), 2)
                 print(f"\n Total interest after {years_invest} years at the {interest_rate}% interest rate: {simple_return} \n")
                 break  # If no break statement, the while loop continues as it's always True.
-            elif interest == "compound":
+            if interest == "compound":
                 compound_return = round(deposit * math.pow((1 + interest_rate), years_invest), 2)
                 print(f"\n Total interest after {years_invest} years at the {interest_rate}% interest rate: {compound_return} \n")
                 break 
-            else:
-                print("\n\t\t\tError: Invalid Entry\n\n\tPlease only enter either 'simple' or 'compound'.\n")
+            print("\n\t\t\tError: Invalid Entry\n\n\tPlease only enter either 'simple' or 'compound'.\n")
     elif choose == "bond":
         house_value = int(obtain_numerical_input("the present value of your house: "))
         interest_rate = obtain_numerical_input("your interest rate: ") / 100 / 12
         repay_months = int(obtain_numerical_input("the number of months you plan to repay the bond: "))
-        bond_repay = round((interest_rate * house_value) / (1 - (1 + interest_rate) ** - repay_months), 2)    
+        bond_repay = round((interest_rate * house_value) / (1 - (1 + interest_rate) ** - repay_months), 2)
         repayment = print(f"\nThis is how much you'll have to repay each month: {bond_repay}")
     else:
         print("\n\t\t\tError: Invalid Entry\n\n\tPlease only enter either 'investment' or 'bond'.\n")
