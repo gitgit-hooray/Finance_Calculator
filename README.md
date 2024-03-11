@@ -86,7 +86,7 @@ This Python code represents a financial calculator program that provides users a
    &nbsp; &nbsp; &nbsp;*1. An investment calculator*
    
    &nbsp; &nbsp; &nbsp;*2. A home loan repayment calculator*
-
+<br>
 1. The program incorporates while loops to continually prompt the user for numerical input, ensuring valid entries. Additionally, it defines a function, `obtain_numerical_input`, to handle repetitive input code. The user is presented with a welcoming introduction outlining the available calculators and their respective purposes, and the code employs the `math` module for mathematical operations.
 <br>
 <img width="703" alt="1" src="https://github.com/gitgit-hooray/finalCapstone/assets/151678204/d9dfe3cd-43f9-4502-b235-d224d2a37f43">
@@ -100,22 +100,40 @@ This Python code represents a financial calculator program that provides users a
 
 ### Output Results
 
-Exiting program
+#### Exiting Program
+
+In this example, the user chose to end calculations by entering 'stop'. The program execution concludes, and the user returns to the command line interface.
+<br>
 <img width="719" alt="Exit program 1" src="https://github.com/gitgit-hooray/finalCapstone/assets/151678204/366bede2-a7b4-4cf7-9112-49c919b10bd2">
 
-Investment Simple
+#### User inputs Investment & Simple Options
+
+In this specific interaction, the user chose the 'investment' option. The program then prompts the user to input the deposit amount, interest rate, and the number of years for the investment. The user further selects that they want 'simple' interest. The program calculates and displays the total interest earned after the specified duration, based on the given inputs. In this example, the user deposited £50, with a 2% interest rate over 5 years, and opted for simple interest, resulting in a total interest of £55.0.
+<br>
 <img width="761" alt="Investment Simple" src="https://github.com/gitgit-hooray/finalCapstone/assets/151678204/ae7be6bc-36b0-4ab4-a839-f1fe75115003">
 
-Investment Compound
+#### User inputs Investment & Compound Interest Options
+
+The user selected the 'investment' option and provided inputs for the deposit amount (£50), interest rate (2%), and the investment duration (5 years). Additionally, the user opted for compound interest. The program then calculated and displayed the total interest earned after 5 years at a 2% interest rate, resulting in £55.2. This illustrates how the program dynamically responds to user inputs and performs calculations based on the selected options.
+<br>
 <img width="747" alt="Investment Compound" src="https://github.com/gitgit-hooray/finalCapstone/assets/151678204/1eb9a08d-f781-46e4-83c6-19a846a8f705">
 
-Investment error handling
+#### Error Handling - User inputs wrong data for each prompt after inputting Investment 
+
+The user initially selects the 'investment' option but enters invalid non-numerical values when prompted for the deposit amount, interest rate, and investment duration. The program correctly identifies these errors and requests valid numerical inputs. After the user provides the correct values, an additional error occurs when entering an invalid choice for the type of interest ('simple' or 'compound'). The program prompts the user to enter a valid option and continues the interaction until valid inputs are provided. This demonstrates the program's error handling and user guidance features, ensuring accurate data entry.
+<br>
 <img width="758" alt="Investment error handling" src="https://github.com/gitgit-hooray/finalCapstone/assets/151678204/8847e2db-f031-4d58-a8c8-4262d4405ed7">
 
-Bond
+#### User inputs Bond Option
+
+The user chooses the 'bond' option and provides numerical inputs for the present value of their house (300,000), interest rate (3%), and the number of months for bond repayment (12). The program then calculates and displays the monthly bond repayment amount, which is £25,408.11. This illustrates the program's functionality in processing user inputs and performing accurate financial calculations based on the chosen option.
+<br>
 <img width="713" alt="Bond" src="https://github.com/gitgit-hooray/finalCapstone/assets/151678204/da311abc-faea-4f2a-b6bb-a31b7f92122a">
 
-Bond error handling
+#### Error Handling - User inputs wrong data for each prompt after inputting Bond
+
+The user selects the 'bond' option and is prompted to input the present value of their house, interest rate, and the number of months for bond repayment. The user initially enters invalid non-numerical values, but the program detects these errors and requests valid numerical inputs. Once the user provides correct values, the program calculates and displays the monthly bond repayment amount. Once again this demonstrates the program's error handling and the ability to guide the user through the correct input process for accurate calculations.
+<br>
 <img width="706" alt="Bond error handling" src="https://github.com/gitgit-hooray/Finance_Calculator/assets/151678204/b212c0a1-cb3c-40c5-8146-56cd9a17b859">
 
 
