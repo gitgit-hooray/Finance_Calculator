@@ -99,6 +99,23 @@ This Python code represents a financial calculator program that provides users a
 
 ### Output Results
 
+Exiting program
+<img width="719" alt="Exit program 1" src="https://github.com/gitgit-hooray/finalCapstone/assets/151678204/366bede2-a7b4-4cf7-9112-49c919b10bd2">
+
+Investment Simple
+<img width="761" alt="Investment Simple" src="https://github.com/gitgit-hooray/finalCapstone/assets/151678204/ae7be6bc-36b0-4ab4-a839-f1fe75115003">
+
+Investment Compound
+<img width="747" alt="Investment Compound" src="https://github.com/gitgit-hooray/finalCapstone/assets/151678204/1eb9a08d-f781-46e4-83c6-19a846a8f705">
+
+Investment error handling
+<img width="758" alt="Investment error handling" src="https://github.com/gitgit-hooray/finalCapstone/assets/151678204/8847e2db-f031-4d58-a8c8-4262d4405ed7">
+
+Bond
+<img width="713" alt="Bond" src="https://github.com/gitgit-hooray/finalCapstone/assets/151678204/da311abc-faea-4f2a-b6bb-a31b7f92122a">
+
+Bond error handling
+<img width="706" alt="Bond error handling" src="https://github.com/gitgit-hooray/Finance_Calculator/assets/151678204/b212c0a1-cb3c-40c5-8146-56cd9a17b859">
 
 
 ## Credits
