@@ -4,8 +4,8 @@
 
 This project is a financial calculator that provides two main functionalities:
 
-   1. An investment calculator
-   2. A home loan repayment calculator
+   *1. An investment calculator*
+   *2. A home loan repayment calculator*
 
 The program allows users to calculate the interest earned on an investment or the monthly repayment amount for a home loan. 
 It provides a simple and convenient way to perform financial calculations related to investments and home loans.
@@ -22,20 +22,23 @@ It provides a simple and convenient way to perform financial calculations relate
 ## Installation
 
 To use this financial calculator locally, follow these steps:
+<br>
 
 1. Clone the repository:
 
    ```bash
    git clone https://github.com/your-username/Finance_Calculator.git
    ```
+   <br>
    
-3. Navigate to the project directory:
+2. Navigate to the project directory:
 
    ```bash
    cd Finance_Calculator
    ```
+   <br>
    
-4. Run the financial calculator script from terminal, choose either script depending on requirements:
+3. Run the financial calculator script from terminal, choose either script depending on requirements:
 
    a. This script is the original codebase with comments:
    
@@ -55,9 +58,11 @@ To use this financial calculator locally, follow these steps:
    ```bash
    python justcode.py
    ```
+   <br>
    
-5. You can refer to the pseudocode file as an outline of the logic of the program using human-readable, informal language,
+4. You can refer to the pseudocode file as an outline of the logic of the program using human-readable, informal language,
    facilitating algorithm development and clearer communication between developers.
+   <br>
 
 ## Usage
 
