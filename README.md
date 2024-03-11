@@ -3,11 +3,11 @@
 ## Description
 
 This project is a financial calculator that provides two main functionalities:
-
-   *1. An investment calculator*
+```
+     *1. An investment calculator*
    
-   *2. A home loan repayment calculator*
-
+     *2. A home loan repayment calculator*
+```
 The program allows users to calculate the interest earned on an investment or the monthly repayment amount for a home loan. 
 It provides a simple and convenient way to perform financial calculations related to investments and home loans.
 
@@ -48,6 +48,7 @@ To use this financial calculator locally, follow these steps:
    ```
    <br>
    b. This script is an alternative version with more detailed comments explaining the code:
+   
    This is to improve the learning process and for more clarity on why certain code was used.
 
    ```bash
