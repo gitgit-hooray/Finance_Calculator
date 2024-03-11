@@ -4,9 +4,9 @@
 
 This project is a financial calculator that provides two main functionalities:
 
-&nbsp;*1. An investment calculator*
+&nbsp; &nbsp; &nbsp;*1. An investment calculator*
    
-&nbsp;*2. A home loan repayment calculator*
+&nbsp; &nbsp; &nbsp;*2. A home loan repayment calculator*
      
 The program allows users to calculate the interest earned on an investment or the monthly repayment amount for a home loan. 
 It provides a simple and convenient way to perform financial calculations related to investments and home loans.
