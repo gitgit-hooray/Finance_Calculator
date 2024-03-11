@@ -24,31 +24,39 @@ It provides a simple and convenient way to perform financial calculations relate
 To use this financial calculator locally, follow these steps:
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/your-username/Finance_Calculator.git
+   ```
    
-2. Navigate to the project directory:
+3. Navigate to the project directory:
+
    ```bash
    cd Finance_Calculator
    ```
-3. Run the financial calculator script from terminal, choose either script depending on requirements:
+   
+4. Run the financial calculator script from terminal, choose either script depending on requirements:
 
    a. This script is the original codebase with comments:
+   
    ```bash
    python finance_calculator.py
    ```
 
    b. This script is an alternative version with more detailed comments explaining the code:
    This is to improve the learning process and for more clarity on why certain code was used.
-    ```bash
+
+   ```bash
    python finance_calculators_extra_comments.py
    ```
 
    c. This script is just the code without any comments:
-    ```bash
+
+   ```bash
    python justcode.py
    ```
-4. You can refer to the pseudocode file as an outline of the logic of the program using human-readable, informal language,
+   
+5. You can refer to the pseudocode file as an outline of the logic of the program using human-readable, informal language,
    facilitating algorithm development and clearer communication between developers.
 
 ## Usage
@@ -66,17 +74,11 @@ After installing the project, you can use it as follows:
 
 ### Main Program
 
-Include screenshots of your project's main program interface here.
 
-![Investment Calculator](screenshots/investment_calculator.png)
-![Bond Calculator](screenshots/bond_calculator.png)
 
 ### Output Results
 
-Include screenshots of the output results from your financial calculations here.
 
-![Investment Results](screenshots/investment_results.png)
-![Bond Results](screenshots/bond_results.png)
 
 ## Credits
 
